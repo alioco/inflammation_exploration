@@ -3,11 +3,11 @@ import numpy
 import matplotlib.pyplot
 
 
-
+# Load inflammation data
 data = numpy.loadtxt(fname='inflammation-01.csv', delimiter=',')
 
 
-
+# Make 3 subplots (mean, max, and min)
 fig = matplotlib.pyplot.figure(figsize=(10.0, 3.0))
 
 
