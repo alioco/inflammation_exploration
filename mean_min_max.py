@@ -8,7 +8,7 @@ data = numpy.loadtxt(fname='inflammation-01.csv', delimiter=',')
 
 
 # Make 3 subplots (mean, max, and min)
-fig = matplotlib.pyplot.figure(figsize=(10.0, 3.0))
+fig = matplotlib.pyplot.figure(figsize=(10.0, 4.0))
 
 
 
